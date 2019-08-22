@@ -1,0 +1,49 @@
+///crear maquina virtual con python
+
+--> python -m virtualenv myenv
+
+
+//active
+.\myenv\Scripts\activate
+
+//desactivar
+deactivate
+
+
+
+//teniendo activo --> activate  instalamos el framework flask
+pip install flask
+
+
+//ver cuales son las dependencias que tenemos instaladas
+pip freeze
+
+
+//creamos requirements.txt en la raiz del venv
+requirements.txt
+
+//install dependencias
+pip install -r requirements.txt
+
+
+//crear variable  --> CORRER comando en temrinal linux (unix)
+export FLASK_APP=main.py
+
+//crear variable  --> CORRER comando en temrinal linux (unix) -> debuggerar
+export FLASK_DEBUG=1
+
+//flask print
+echo $FLASK_APP
+
+//flask print validar existencia variable debugger
+echo $FLASK_DEBUG
+
+//prender servidor
+flask run
+
+
+
+
+
+
+
